@@ -11,111 +11,123 @@ Document your development process as you work on the assignment. Add entries sho
 
 ---
 
-## Example Entry Format:
 
-### Entry 1 - [April 1, 2026, 2:30 PM]
-**What I did**: Forked the repository and set up my student ID
+### Entry 1 - [April 1, 2026, 2:00PM]
+Entry 1 - [March 27, 2026, 2:00 PM]
 
-**Details**: 
-- Created GitHub account with university email
-- Forked the starter repository
-- Changed student ID on line 92 to my actual ID (441234567)
-- Compiled and ran the program successfully
+What I did: Started the assignment and set up the project
 
-**Challenges**: Had to install JDK first because javac wasn't recognized
+Details:
+-creat gitgub account using my university email
+-Forked the repository and renamed it
+-added my studentID in SchedulerSimulatiob.java
+-Opened the project in VS Codeand Ran the program for the first time
 
-**Solution**: Downloaded JDK 17 from Oracle website and set PATH variable
+Challenges: Did not understand how the scheduler loop works
 
-**Time spent**: 30 minutes
+Solution: Reviewed lecture slides and traced the code step by step
 
----
-
-## Your Development Log:
-
-### Entry 1 - [Date and Time]
-**What I did**: 
-
-**Details**: 
-
-**Challenges**: 
-
-**Solution**: 
-
-**Time spent**: 
+Time spent: 2 hours
 
 ---
 
-### Entry 2 - [Date and Time]
-**What I did**: 
 
-**Details**: 
+### Entry 2 - [March 27, 2026, 4:00 PM]
 
-**Challenges**: 
+**What I did:** Analyzed the SchedulerSimulation class and understood Round Robin scheduling
 
-**Solution**: 
+**Details:**
 
-**Time spent**: 
+* Analyzed the SchedulerSimulation class to understand how the program works
+* Studied the concept of Round Robin scheduling
+* Tracked the program execution step by step to understand the flow
 
----
+**Challenges:** Found it difficult to understand how processes move in the ready queue
 
-### Entry 3 - [Date and Time]
-**What I did**: 
+**Solution:** Followed the execution step by step and focused on how processes are scheduled
 
-**Details**: 
-
-**Challenges**: 
-
-**Solution**: 
-
-**Time spent**: 
+**Time spent:** 4 hour
 
 ---
 
-### Entry 4 - [Date and Time]
-**What I did**: 
+### Entry 3 - [March 27, 2026, 9:00PM]
 
-**Details**: 
+**What I did:** Implemented Feature 2 (context switch counter)
 
-**Challenges**: 
+**Details:**
 
-**Solution**: 
+* Added a variable to count context switches
+* Incremented it inside the scheduling loop
 
-**Time spent**: 
+**Challenges:** Was unsure where to increment the counter
+
+**Solution:** Tested different positions until the output was correct
+
+**Time spent:** 2 hours
+
+
+---
+Entry 4 - [March 28, 2026, 1:00 PM]
+
+What I did: Implemented Feature 1 (process priority)
+
+Details:
+
+Added priority attribute to Process class
+Generated random priority values
+Displayed priority in output
+
+Challenges: Confusion about random number generation
+
+Solution: Used Random class with correct range
+
+**Time spent**: 2 hour
+
+---
+Entry 5 - [March 29, 2026, 4:00 PM]
+
+What I did: Implemented Feature 3 (waiting time)
+
+Details:
+
+Used System.currentTimeMillis() to calculate waiting time
+Added waiting time output for each process
+
+Challenges: Output showed repeated processes
+
+Solution: Fixed output to display each process once
+
+Time spent: 3 hours
+
 
 ---
 
-### Entry 5 - [Date and Time]
-**What I did**: 
+### Entry 6 - [March 30, 2026, 5:00 PM]
 
-**Details**: 
+**What I did:** Final testing, debugging, and video preparation
 
-**Challenges**: 
+**Details:**
 
-**Solution**: 
+* Verified all features are working correctly
+* Checked output formatting
+* Reviewed code for any errors
+* Prepared explanation points for the assignment video
 
-**Time spent**: 
+**Challenges:** Minor formatting issues in output
 
----
+**Solution:** Adjusted print statements
 
-### Entry 6 - [Optional - Date and Time]
-**What I did**: 
+**Time spent:** 3 hours
 
-**Details**: 
-
-**Challenges**: 
-
-**Solution**: 
-
-**Time spent**: 
 
 ---
 
 ## Summary
 
-**Total time spent on assignment**: [X hours]
+**Total time spent on assignment**: 16 hours
 
-**Most challenging part**: 
+**Most challenging part**: Understanding how processes move in the ready queue and how Round Robin scheduling manages execution order
 
-**Most interesting learning**: 
+**Most interesting learning**: Learning how Round Robin scheduling works in practice and how processes are executed step by step using threads
 
-**What I would do differently next time**: 
+**What I would do differently next time**: Start earlier and try to understand the code structure before implementing features
