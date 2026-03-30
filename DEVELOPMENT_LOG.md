@@ -12,7 +12,7 @@ Document your development process as you work on the assignment. Add entries sho
 ---
 
 
-### Entry 1 - [April 1, 2026, 2:00PM]
+
 Entry 1 - [March 27, 2026, 2:00 PM]
 
 What I did: Started the assignment and set up the project
